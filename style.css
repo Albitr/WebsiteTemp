@@ -5,7 +5,7 @@ body {
   color: white;
   text-align: center;
   position: relative;
-  background: url('media/images/boxing_gym_bw.jpg') no-repeat center center fixed;
+  background: url('media/images/background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -45,9 +45,27 @@ video {
 
 .image-row img {
   width: 30%;
-  max-width: 200px;
   border: 2px solid #ff0000;
   border-radius: 8px;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-list li {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
   box-shadow: 0 0 10px #ff0000;
 }
 
