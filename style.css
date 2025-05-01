@@ -88,15 +88,15 @@ video {
 
 h1 {
   color: #ff0000;
-  font-size: 128px;
+  font-size: 64px;
 }
 
 h2 {
   color: #ffff00;
-  font-size: 92px;
+  font-size: 32px;
 }
 
 li {
   color: #ffffff;
-  font-size: medium;
+  font-size: 24px;
 }
